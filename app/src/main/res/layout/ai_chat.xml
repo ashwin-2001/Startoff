@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="50dp"
+                android:background="#000000ff"
+                android:padding="2dp">
+
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight= "20dp"
+            android:layout_marginStart="10dp"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/rectangle_chatv2"
+            android:id="@+id/layoutformessage">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sender Message "
+                android:textSize="16sp"
+                android:textColor="#454545"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="20dp"
+                android:maxWidth="300dp"
+                android:id="@+id/sendermessage">
+
+        </TextView>
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+</RelativeLayout>
